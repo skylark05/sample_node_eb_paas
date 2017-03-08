@@ -10,7 +10,7 @@ build:
   ci:
     - aws iam get-user
     - pip install -U awsebcli
-    - echo "Hello, World!"
+    - eb list
 
 integrations:
   deploy:
