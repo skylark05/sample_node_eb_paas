@@ -7,11 +7,8 @@ node_js:
 #  - selenium
 
 build:
-    ci:
-      - echo "Hello, World!"
-      - #sudo npm install
-      - #export DISPLAY=:99.0
-      - #xvfb-run --server-args="-ac" npm test
+  ci:
+    - echo "Hello, World!"
 
 integrations:
   deploy:
