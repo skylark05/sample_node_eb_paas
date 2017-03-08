@@ -8,6 +8,7 @@ node_js:
 
 build:
   ci:
+    - pip install -U awsebcli
     - echo "Hello, World!"
 
 integrations:
